@@ -6,9 +6,10 @@ body {
 
 .cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     height: 800px;
-    width: 800px;
+    width: 1200px;
     border: solid 1px green;
 }
 
@@ -16,7 +17,17 @@ body {
     border: solid 1px blue;
    /* grid-area: 1 / 1 / span 2 / span 1; */
 }
+.daniel {
+    grid-area: 1 / 1 / span 1 / span 2;
+}
 
+.kira {
+    grid-area: 1 / 4 / span 3 / span 1;
+}
+
+.patrick {
+    grid-area: 2 / 2 / span 1 / span 2;
+}
 .sub-card {
     border: solid 1px red;
 }
