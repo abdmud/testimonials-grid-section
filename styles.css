@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
 
-body {
+html, body {
     font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
 }
 
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    height: 800px;
+    height: 700px;
     width: 1200px;
+    gap: 3%;
     border: solid 1px green;
 }
 
@@ -22,7 +30,7 @@ body {
 }
 
 .kira {
-    grid-area: 1 / 4 / span 3 / span 1;
+    grid-area: 1 / 4 / span 2 / span 1;
 }
 
 .patrick {
