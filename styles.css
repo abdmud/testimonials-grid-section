@@ -2,6 +2,7 @@
 
 html, body {
     font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
     margin: 0;
     padding: 0;
 }
@@ -15,7 +16,7 @@ html, body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    height: 700px;
+    height: 580px;
     width: 1200px;
     gap: 3%;
     border: solid 1px green;
@@ -24,6 +25,10 @@ html, body {
 .main-card {
     border: solid 1px blue;
    /* grid-area: 1 / 1 / span 2 / span 1; */
+}
+
+.card {
+    border-radius: 5px;
 }
 .daniel {
     grid-area: 1 / 1 / span 1 / span 2;
