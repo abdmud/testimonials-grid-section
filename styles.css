@@ -11,6 +11,7 @@ html, body {
 .page {
     display: flex;
     justify-content: center;
+    margin-top: 3%;
 }
 
 .cards {
@@ -20,16 +21,10 @@ html, body {
     height: 640px;
     width: 1200px;
     gap: 1%;
-    border: solid 1px green;
-}
-
-.main-card {
-    border: solid 1px blue;
-   /* grid-area: 1 / 1 / span 2 / span 1; */
 }
 
 .card {
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 3% 5% 0 5%;
 }
 
@@ -64,11 +59,7 @@ html, body {
     height: 300px;
 }
 .sub-card {
-    border: solid 1px red;
     padding: 5% 5% 0 5%;
-}
-.long-card {
-    border: solid 1px black;
 }
 .long-card .card-p {
     height: 300px;
