@@ -16,7 +16,7 @@ html, body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    height: 580px;
+    height: 620px;
     width: 1200px;
     gap: 3%;
     border: solid 1px green;
@@ -30,6 +30,9 @@ html, body {
 .card {
     border-radius: 5px;
 }
+
+/** Individual Cards **/
+/**********************/
 .daniel {
     grid-area: 1 / 1 / span 1 / span 2;
     background-color: hsl(263, 55%, 52%);
@@ -38,6 +41,7 @@ html, body {
 .jonathan {
     background-color: hsl(217, 19%, 35%);
     color: white;
+    height: 300px;
 }
 .kira {
     grid-area: 1 / 4 / span 2 / span 1;
@@ -47,6 +51,7 @@ html, body {
     grid-area: 2 / 2 / span 1 / span 2;
     background-color: hsl(219, 29%, 14%);
     color: white;
+    height: 300px;
 }
 .sub-card {
     border: solid 1px red;
@@ -69,4 +74,12 @@ img {
     border-radius: 100px;
     height: 50px;
     width: 50px;
+}
+
+.card-p {
+    color: hsl(0, 0%, 81%);
+}
+
+.verified {
+    color: hsl(0, 0%, 81%);
 }
