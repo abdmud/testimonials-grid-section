@@ -58,7 +58,6 @@ html, body {
     border: solid 1px red;
     padding: 5% 5% 0 5%;
 }
-
 .long-card {
     border: solid 1px black;
 }
@@ -85,7 +84,6 @@ img {
     width: 30px;
     border: solid 1px white;
 }
-
 .card-p {
     color: hsl(0, 0%, 81%);
     font-size: 15px;
@@ -98,4 +96,37 @@ img {
 .verified {
     color: hsl(0, 0%, 81%);
     margin-top: -15%;
+}
+
+/*** MOBILE ***/
+/**************/
+@media only screen and (max-width: 450px) {
+    html,body {
+        width: 450px;
+        margin: 0;
+        padding: 0;
+        background-color: hsl(210, 46%, 95%);
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 2300px;
+    }
+    .card {
+        height: 400px;
+        width: 300px;
+    }
+    .daniel {
+        gap: 15%;
+    }
+    .kira .dark-p {
+        width: 250px;
+        margin-top: -5%;
+        padding: 0;
+    }
+    .main-msg {
+        font-size: 20px;
+        height: 70px;
+    }
 }
