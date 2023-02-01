@@ -45,6 +45,8 @@ html, body {
 
 .patrick {
     grid-area: 2 / 2 / span 1 / span 2;
+    background-color: hsl(219, 29%, 14%);
+    color: white;
 }
 .sub-card {
     border: solid 1px red;
@@ -52,4 +54,19 @@ html, body {
 
 .long-card {
     border: solid 1px black;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+}
+.author-details {
+    margin: 0;
+    padding: 0;
+}
+img {
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
 }
