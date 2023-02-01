@@ -16,7 +16,7 @@ html, body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    height: 620px;
+    height: 640px;
     width: 1200px;
     gap: 1%;
     border: solid 1px green;
@@ -29,6 +29,7 @@ html, body {
 
 .card {
     border-radius: 5px;
+    padding: 3% 5% 0 5%;
 }
 
 /** Individual Cards **/
@@ -55,6 +56,7 @@ html, body {
 }
 .sub-card {
     border: solid 1px red;
+    padding: 5% 5% 0 5%;
 }
 
 .long-card {
@@ -65,23 +67,23 @@ html, body {
 }
 .main-msg {
     font-size: 20px;
+    height: 70px;
 }
 .author {
     display: flex;
     align-items: center;
     gap: 3%;
 }
-.author-details {
-}
 img {
     border-radius: 100px;
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
+    border: solid 1px white;
 }
 
 .card-p {
     color: hsl(0, 0%, 81%);
-    font-size: 16px;
+    font-size: 13px;
 }
 .dark-p {
     color: hsl(219, 29%, 14%);
@@ -89,4 +91,5 @@ img {
 }
 .verified {
     color: hsl(0, 0%, 81%);
+    margin-top: -15%;
 }
